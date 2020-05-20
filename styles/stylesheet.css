@@ -1,5 +1,23 @@
+figure {
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.column {
+  float: left;
+  padding: 30px;
+}
+
+
 @media screen and (max-width:600px) {
-	img {
+	.playgif {
 		width: 30%;
 		height: auto;
 	}
