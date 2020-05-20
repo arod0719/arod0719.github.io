@@ -11,14 +11,17 @@ figcaption {
 }
 
 .column {
-  float: left;
+    flex: 1%;
   padding: 30px;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-@media screen and (max-width:600px) {
-	.playgif {
-		width: 30%;
+.playgif {
+		width: 100%;
 		height: auto;
 	}
-}
+
