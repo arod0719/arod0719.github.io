@@ -31,6 +31,7 @@ var imageHover = function () {
  var imageRevert = function () {
       var $this = $(this);
       $this.data('static', 'images/static.png');
+      console.log($this.data('wiggle').substring(9));
       if ($this.data('wiggle').substring(9) == 'open.gif'){
         $this.data('open', $this.data('wiggle'));
         $this.data('wiggle', 'images/wiggle.gif');
